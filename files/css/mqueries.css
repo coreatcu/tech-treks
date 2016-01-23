@@ -35,6 +35,7 @@ aside {	width: 240px; }
 .one-third .iconbox-content { width: 236px; }
 .one-fourth .iconbox-content { width: 155px; }
 
+.vimeo {width: 600px; height: 338px;}
 
 }
 
@@ -86,6 +87,8 @@ nav#main-nav { display: none; }
 .one-fourth .pricing-table {	padding-left: 5px;	padding-right: 5px; }
 .price-amount { font-size: 60px; line-height: 60px; }
 .one-fourth .price-amount { font-size: 40px; line-height: 40px; }
+
+.vimeo {width: 600px; height: 338px;}
 
 }
 
@@ -151,5 +154,7 @@ div .column:first-child { margin: 0; }
 .spacer.spacer-small { height: 30px; }
 .spacer.spacer-medium { height: 45px; }
 .spacer.spacer-big { height: 60px; }
+
+.vimeo {width: 250px; height: 141px;}
 
 }

@@ -1034,4 +1034,9 @@ a.sr-buttonicon.small-iconbutton {
   opacity: .95;
 }
 
+.vimeo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
