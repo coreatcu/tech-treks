@@ -995,6 +995,7 @@ a.sr-buttonicon.small-iconbutton {
 .apply-bg {
 	background-image: url("../images/bgs/techtrekcollage.png");
 	background-position: center;
+	background-repeat: no-repeat;
 }
 
 /* image hover text
@@ -1033,4 +1034,9 @@ a.sr-buttonicon.small-iconbutton {
   opacity: .95;
 }
 
+.vimeo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
