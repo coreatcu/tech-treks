@@ -1,4 +1,4 @@
-/*---------------------------------------------- 
+/*----------------------------------------------
 0. RESET & CLEARFIX
 ------------------------------------------------*/
 html, body, div, span, applet, object, iframe,
@@ -15,7 +15,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	border: 0;
 	outline: 0;
 	font-size: 100%; }
-	
+
 ol, ul  { list-style: none; }
 
 :focus  { outline: 0; }
@@ -35,7 +35,7 @@ audio:not([controls]) { display: none; }
 
 
 
-/*---------------------------------------------- 
+/*----------------------------------------------
 1. BASICS
 ------------------------------------------------*/
 html {
@@ -49,12 +49,12 @@ html {
 	}
 
 body {
-	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: 300;
-	font-size:14px; 
+	font-size:14px;
 	line-height: 22px;
-	color:#666666; 
-	text-align: left; 
+	color:#666666;
+	text-align: left;
 	position: relative;
 	background: #fafafa;
 	height: 100%;
@@ -69,7 +69,7 @@ body {
 /* Headings
 ---------------------------------------- */
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Raleway'; 
+	font-family: 'Raleway';
 	font-weight: 400;
 	color: #262626;
 	}
@@ -83,7 +83,7 @@ h5 { font-size: 18px; line-height: 26px; }
 h6 { font-size: 16px; line-height: 22px; }
 
 h1 b, h2 b, h3 b, h4 b, h5 b, h6 b, h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong { font-weight: 600; }
-	
+
 /* Headers Spacing */
 div h1, div h2, div h3, div h4, div h5, div h6 { margin-top: 20px; }
 div h1:first-child, div h2:first-child, div h3:first-child, div h4:first-child, div h5:first-child, div h6:first-child { margin-top: 0px; }
@@ -92,23 +92,23 @@ div h1:first-child, div h2:first-child, div h3:first-child, div h4:first-child, 
 .text-light .subtitle { opacity: 0.9; filter: alpha(opacity=90);	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)"; }
 
 /* Headers for section titles */
-.section-title { 
+.section-title {
 	text-align: center;
 	margin-top: -10px;				/* fix for line-height spacing*/
 	margin-bottom: 50px;
 	}
-	
-.section-title h2 { 
+
+.section-title h2 {
 	text-transform: uppercase;
 	letter-spacing: -0.05em;
-	font-weight: 900;  
+	font-weight: 900;
 	}
-	
+
 .widget-title {
 	text-transform: uppercase;
 	}
-	
-	
+
+
 /* Links
 ---------------------------------------- */
 a {
@@ -120,12 +120,12 @@ a {
 
 a:hover {
 	color: #fff;
-	}	
+	}
 
 a:visited {
 	color: #fff;
 }
-	
+
 .text-light a:hover { color: #ffffff; }
 
 
@@ -133,16 +133,16 @@ a:visited {
 /* Embedded content
 ---------------------------------------- */
 img,{
-	max-width: 100%; 
+	max-width: 100%;
 	height: auto;
 	display: inline-block;
 	margin:0;
     vertical-align:top;
 	}
-	
+
 img {
 	width: auto;
-	max-width: 100%; 
+	max-width: 100%;
 	border: 0;
 	-ms-interpolation-mode: bicubic;
 	}
@@ -161,7 +161,7 @@ ul {
 	list-style: disc;
 	}
 	div ul:first-child, li ul:first-child { margin-top: 0px; }
-	
+
 ol {
 	margin-top: 20px;
 	margin-left: 30px;
@@ -173,26 +173,26 @@ ul li, ol li {
 	line-height: 20px;
 	margin-top: 10px;
 	}
-	ul li:first-child, ol li:first-child { margin-top: 0px; }	
+	ul li:first-child, ol li:first-child { margin-top: 0px; }
 
 ul.list-nostyle {
 	list-style: none !important;
 	margin-left: 0 !important;
 	}
-	
+
 ul.list-nostyle li > .fa {
 	margin-right: 10px;
 	}
-	
+
 
 
 /* Others
 ---------------------------------------- */
-p { 
-	margin-top: 20px; 
+p {
+	margin-top: 20px;
 	}
-	div p:first-child {  margin-top: 0px;  }	
-	
+	div p:first-child {  margin-top: 0px;  }
+
 strong, b, dt {
 	font-weight: 600;
 }
@@ -200,7 +200,7 @@ strong, b, dt {
 i, dfn, em {
 	font-style: italic;
 	}
-	
+
 strong i, b i, dt i, strong em, b em, dt em {
 	font-style: italic;
 	font-weight: bold;
@@ -221,7 +221,7 @@ blockquote {
 blockquote p {
 	margin: 0;
 	}
-	
+
 pre, code {
 	padding: 3px 0 3px 20px;
 	margin-left: 20px;
@@ -232,11 +232,11 @@ pre, code {
 	border-left: 2px solid #d9d9d9;
 	color: #262626;
 	}
-	div pre:first-child, div code:first-child { margin-top: 0px; } 
+	div pre:first-child, div code:first-child { margin-top: 0px; }
 
 
 
-/*---------------------------------------------- 
+/*----------------------------------------------
 2. GENERAL ELEMENTS
 ------------------------------------------------*/
 #page-content {
@@ -250,34 +250,34 @@ pre, code {
 	width: 1100px;
 	margin: 0 auto;
 	}
-	
+
 .main-content {
 	width: 740px;
 	}
-	
+
 aside {
 	width: 300px;
 	}
-	
-.left-float { 
-	float: left; 
+
+.left-float {
+	float: left;
 	}
-	
-.right-float { 
-	float: right; 
+
+.right-float {
+	float: right;
 	}
-	
+
 .align-center {
 	text-align: center;
 	}
-	
+
 .text-light {
 	color: #ffffff;
-	}	
+	}
 
 
 
-/*---------------------------------------------- 
+/*----------------------------------------------
 3. HEADER
 ------------------------------------------------*/
 header {
@@ -289,9 +289,9 @@ header {
 	z-index: 10000;
 	position: relative;
 	}
-	
+
 #logo {
-	padding: 20px 0; 
+	padding: 20px 0;
 	max-width: 100%;
 	max-height: 100%;
 	height: 150px;
@@ -301,39 +301,39 @@ header {
     -o-transition: all 200ms linear;
     -ms-transition: all 200ms linear;
 	}
-	
+
 #logo img {
 	max-height: 100%;
 	}
-	
-	
-/* header shrinks when fixed & scrolled */	
+
+
+/* header shrinks when fixed & scrolled */
 .fixed-header header {
 	position: fixed;
 	left: 0; top: 0;
 	}
-	
+
 .smallheader #logo {
 	height: 40px;
-	padding: 10px 0; 
+	padding: 10px 0;
 	}
-	
+
 .smallheader nav#main-nav > ul > li > a:first-child {
 	line-height: 40px;
 	padding: 10px 0;
 	}
-	
+
 .smallheader nav#menu-controls > ul > li {
 	height: 40px;
 	padding: 10px 0;
-	}	
-	
+	}
+
 .smallheader nav#main-nav > ul > li > .sub-menu {
 	top: 60px;
 	}
-		
 
-/* header overlay style */	
+
+/* header overlay style */
 header.header-overlay {
 	background: transparent;
 	box-shadow:  none;
@@ -342,13 +342,13 @@ header.header-overlay {
 	position: absolute!important;
 	left: 0; top: 0;
 	}
-	
+
 header.header-overlay #defaut-logo {
 	display: none;
 	}
-	
 
-/*---------------------------------------------- 
+
+/*----------------------------------------------
 5. FOOTER
 ------------------------------------------------*/
 footer {
@@ -356,14 +356,14 @@ footer {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	}
-	
+
 .footer-logo img {
 	height: 60px;
 	}
-	
-	
 
-/*---------------------------------------------- 
+
+
+/*----------------------------------------------
 6. NAVIGATION & MENU
 ------------------------------------------------*/
 .menu {
@@ -373,7 +373,7 @@ footer {
 nav#main-nav {
 	z-index: 50;
 	}
-	
+
 nav#main-nav ul {
 	position: relative;
 	z-index: 49;
@@ -381,7 +381,7 @@ nav#main-nav ul {
 	padding: 0;
 	list-style: none;
 	}
-	
+
 nav#main-nav ul li {
 	position: relative;
 	z-index: 45;
@@ -393,7 +393,7 @@ nav#main-nav ul li {
 
 nav#main-nav > ul > li > a  {
 	display: block;
-	font-family: 'Open Sans'; 
+	font-family: 'Open Sans';
 	font-weight: 600;
 	font-size: 12px;
 	line-height: 60px;					/* depending on the logo height */
@@ -406,32 +406,32 @@ nav#main-nav > ul > li > a  {
 	width: auto;
 	transition: all 200ms linear;
 	}
-	
-/* nav state for overlayed header*/	
+
+/* nav state for overlayed header*/
 .header-overlay nav#main-nav > ul > li > a {
 	color: #ffffff;
-	opacity: 0.7; 
-	filter: alpha(opacity=7); 
+	opacity: 0.7;
+	filter: alpha(opacity=7);
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
 	}
-		
+
 nav#main-nav > ul > li:hover > a {
 	z-index: 48;
 	color: #4da5f5;
 	}
-	
+
 nav#main-nav > ul > li.current-menu-item > a, nav#main-nav > ul > li.current-menu-ancestor > a {
 	color: #4da5f5;
 	}
 
-/* hover/active nav state for overlayed header*/	
+/* hover/active nav state for overlayed header*/
 .header-overlay nav#main-nav > ul > li:hover > a, .header-overlay nav#main-nav > ul > li.current-menu-item > a, .header-overlay nav#main-nav > ul > li.current-menu-ancestor > a {
 	color: #ffffff;
-	opacity: 1; 
-	filter: alpha(opacity=100); 
+	opacity: 1;
+	filter: alpha(opacity=100);
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 	}
-	
+
 nav#main-nav ul li .sub-menu {
 	position: relative;
 	position: absolute;
@@ -442,15 +442,15 @@ nav#main-nav ul li .sub-menu {
 	padding: 5px 0;
 	display: none;
 	z-index: 47;
-	} 
-	
+	}
+
 nav#main-nav ul .sub-menu li {
 	float: none;
 	margin: 0;
 	}
-	
+
 nav#main-nav ul .sub-menu li a {
-	font-family: 'Open Sans'; 
+	font-family: 'Open Sans';
 	font-weight: 400;
 	color: #999999;
 	font-size: 12px;
@@ -458,7 +458,7 @@ nav#main-nav ul .sub-menu li a {
 	padding: 7px 20px;
 	display: block;
 	}
-	
+
 nav#main-nav ul .sub-menu > li:hover > a, nav#main-nav ul .sub-menu > li.current-menu-item > a {
 	color: #ffffff;
 	}
@@ -468,14 +468,14 @@ nav#main-nav ul li ul li .sub-menu {
 	top: 0px;
 	left: 200px;
 	}
-	
+
 
 
 /* control nav when fixed & scrolled */
 nav#menu-controls {
 	display: none;
 	}
-	
+
 nav#menu-controls ul {
 	position: relative;
 	z-index: 49;
@@ -484,7 +484,7 @@ nav#menu-controls ul {
 	list-style: none;
 	/*overflow: hidden;*/
 	}
-	
+
 nav#menu-controls ul li {
 	float: left;
 	margin: 0 0 0 15px;
@@ -495,32 +495,32 @@ nav#menu-controls ul li {
 	width: 12px;
 	transition: all 200ms linear;
 	}
-		
+
 nav#menu-controls > ul > li a  {
 	display: inline-block;
 	color: #262626;
 	padding: 2px;
 	border: 1px solid transparent;
 	border-radius: 10px;
-	-moz-border-radius: 10px; 
-	-khtml-border-radius: 10px; 
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	position: absolute;
 	top: 50%;
 	left: 0;
 	margin-top: -6px;
 	}
-	
+
 nav#menu-controls > ul > li.current-menu-item > a {
 	border-color: #4da5f5;
 	}
-	
+
 nav#menu-controls > ul > li.current-menu-item > a span.c-dot {
 	opacity: 0;
 	filter: alpha(opacity=0);
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	}
-	
+
 nav#menu-controls > ul > li a span.c-dot  {
 	display: block;
 	height: 6px;
@@ -531,11 +531,11 @@ nav#menu-controls > ul > li a span.c-dot  {
 	-khtml-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	}
-	
+
 nav#menu-controls > ul > li a:hover span.c-dot  {
 	background: #4da5f5;
 	}
-	
+
 nav#menu-controls > ul > li a span.c-name  {
 	position: absolute;
 	font-family: 'Open Sans';
@@ -545,8 +545,8 @@ nav#menu-controls > ul > li a span.c-name  {
 	width: 100px;
 	left: -44px;
 	bottom: 12px;
-	opacity: 0; 
-	filter: alpha(opacity=0); 
+	opacity: 0;
+	filter: alpha(opacity=0);
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	-webkit-transition: opacity 0.2s ease-in-out;
     -moz-transition: opacity 0.2s ease-in-out;
@@ -554,23 +554,23 @@ nav#menu-controls > ul > li a span.c-name  {
     -ms-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
 	}
-	
+
 nav#menu-controls > ul > li a:hover span.c-name {
-	opacity: 1; 
-	filter: alpha(opacity=100); 
+	opacity: 1;
+	filter: alpha(opacity=100);
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 	}
 
 
 
-/* responsive nav on mobile view */	
+/* responsive nav on mobile view */
 .open-responsive-nav {
 	padding: 10px 0;
 	text-indent: -9999px;
 	display: block;
 	display: none;
 	}
-	
+
 .open-responsive-nav span {
 	display: block;
 	width: 40px;
@@ -591,7 +591,7 @@ nav#menu-controls > ul > li a:hover span.c-name {
 	-moz-box-shadow:  rgba(0,0,0, 0.2) 0px 0px 3px;
 	-webkit-box-shadow:  rgba(0,0,0, 0.2) 0px 0px 3px;
 	}
-	
+
 nav#responsive-nav ul {
 	margin: 0;
 	padding: 0;
@@ -600,7 +600,7 @@ nav#responsive-nav ul {
 nav#responsive-nav > ul {
 	border-bottom: 1px solid #333333;
 	}
-	
+
 nav#responsive-nav ul li {
 	margin: 0;
 	padding: 0;
@@ -610,11 +610,11 @@ nav#responsive-nav ul li {
 	nav#responsive-nav > ul > li:first-child {
 	border-top: none;
 	}
-	
+
 nav#responsive-nav > ul li > a {
 	display: block;
 	color: #cccccc;
-	font-family: 'Open Sans'; 
+	font-family: 'Open Sans';
 	font-weight: 600;
 	font-size: 12px;
 	text-transform: uppercase;
@@ -622,11 +622,11 @@ nav#responsive-nav > ul li > a {
 	padding: 8px 20px;
 	transition: all 200ms linear;
 	}
-	
+
 nav#responsive-nav > ul > li:hover > a, nav#responsive-nav > ul > li.current-menu-item > a {
 	color: #ffffff;
-	}	
-	
+	}
+
 nav#responsive-nav .sub-menu li a {
 	display: block;
 	font-weight: 400;
@@ -636,10 +636,10 @@ nav#responsive-nav .sub-menu li a {
 	padding: 10px 20px 10px 40px;
 	font-size: 12px;
 	}
-	
 
 
-/*---------------------------------------------- 
+
+/*----------------------------------------------
 7. SLIDER
 ------------------------------------------------*/
 .home-slider-container {
@@ -653,7 +653,7 @@ nav#responsive-nav .sub-menu li a {
 	margin-left: 0;
 	list-style: none;
 	}
-	
+
 .home-slider-container ul li {
 	line-height: 0;
 	margin-top: 0;
@@ -661,7 +661,7 @@ nav#responsive-nav .sub-menu li a {
 
 
 
-/*---------------------------------------------- 
+/*----------------------------------------------
 8. SECTION
 ------------------------------------------------*/
 section { }
@@ -676,16 +676,16 @@ section { }
 
 
 
-	
-	
-/*---------------------------------------------- 
+
+
+/*----------------------------------------------
 13. COLUMNS GRID
 ------------------------------------------------*/
 .column-section { margin-top: 60px; }
 div .column-section:first-child { margin-top: 0px; }
-	
-.column { 
-	float: left; 
+
+.column {
+	float: left;
 	margin-right: 40px;
 	min-height: 1px;
 	}
@@ -719,9 +719,9 @@ aside .column { width: 100% !important; float: none !important; margin-right: 0 
 
 
 
-/*---------------------------------------------- 
+/*----------------------------------------------
 15. Elements
-------------------------------------------------*/	
+------------------------------------------------*/
 
 /*	Buttons
 ------------------------------------------------*/
@@ -730,14 +730,14 @@ a.sr-button {
 	font-family: 'Open Sans';
 	font-weight: 600;
 	line-height: 22px !important;
-	letter-spacing: 0.15em; 
+	letter-spacing: 0.15em;
 	text-transform: uppercase;
 	text-align: center;
 	text-decoration: none;
 	margin-bottom: 5px;
 	border-radius: 3px;
-	-moz-border-radius:3px; 
-	-khtml-border-radius:3px; 
+	-moz-border-radius:3px;
+	-khtml-border-radius:3px;
 	-webkit-border-radius:3px;
 	-webkit-transition: all 200ms linear;
     -moz-transition: all 200ms linear;
@@ -745,15 +745,15 @@ a.sr-button {
     -ms-transition: all 200ms linear;
     transition: all 200ms linear;
 	}
-	
+
 a.sr-button:hover {
 	background-color: #ffffff;
 	color : #1a1a1a;
 	transform: scale(1.07);
-	-ms-transform: scale(1.07); 
+	-ms-transform: scale(1.07);
 	-webkit-transform: scale(1.07);
 	}
-	
+
 a.mini-button { font-size: 10px; padding: 5px 10px; border-radius: 2px;-moz-border-radius:2px;-khtml-border-radius:2px;-webkit-border-radius:2px; }
 a.small-button { font-size: 11px; padding: 10px 20px; }
 a.medium-button { font-size: 13px; padding: 12px 40px; }
@@ -762,8 +762,8 @@ a.big-button { font-size: 15px;	padding: 18px 50px;	}
 a.sr-button1 {	border: 2px solid #999999; color: #262626;	background: transparent; }
 a.sr-button1:hover { border-color: #262626; background-color: #262626; color: #ffffff; }
 
-a.sr-button2 {	border: 2px solid #ffffff; color: #ffffff;	background: transparent; }
-a.sr-button2:hover { background-color: transparent; color: #ffffff; }
+a.sr-button2 {	border: 2px solid #fff; color: #fff;	background: transparent; }
+a.sr-button2:hover { background-color: transparent; color: #fff; }
 
 a.sr-button3 { border: 2px solid #4da5f5; color: #4da5f5;	background: transparent; }
 a.sr-button3:hover { background: #4da5f5; color: #ffffff; }
@@ -808,7 +808,7 @@ a.sr-buttonicon.small-iconbutton {
 
 
 
-	
+
 /*	seperator
 ------------------------------------------------*/
 .seperator {
@@ -818,7 +818,7 @@ a.sr-buttonicon.small-iconbutton {
 	padding: 8px 0;
 	text-align: center;
 	}
-	
+
 .section-title .seperator { padding: 16px 0;  }
 
 .seperator span {
@@ -826,7 +826,7 @@ a.sr-buttonicon.small-iconbutton {
 	background: #000000;
 	display: inline-block;
 	width: 100px;
-	opacity: 0.15; 
+	opacity: 0.15;
 	filter: alpha(opacity=15);
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=15)";
 	}
@@ -847,17 +847,17 @@ a.sr-buttonicon.small-iconbutton {
 .spacer {
 	width: 100%;
 	display: block;
-	}	
+	}
 
 .spacer.spacer-mini { height: 15px; }
 .spacer.spacer-small { height: 40px; }
 .spacer.spacer-medium { height: 60px; }
 .spacer.spacer-big { height: 100px; }
 
-	
-	
+
+
 /*	Social Widget
-------------------------------------------------*/	
+------------------------------------------------*/
 .socialmedia-widget {
 	margin: 10px 0 0 0;
 	padding: 0;
@@ -865,7 +865,7 @@ a.sr-buttonicon.small-iconbutton {
 	text-align: center;
 	}
 	div .socialmedia-widget:first-child { margin: 0; }
-	
+
 .socialmedia-widget li {
 	display: inline-block;
 	background: transparent;
@@ -873,7 +873,7 @@ a.sr-buttonicon.small-iconbutton {
 	margin: 0 3px 0 3px;
 	position: relative;
 	}
-	
+
 .socialmedia-widget li a {
 	height: 30px;
 	width: 30px;
@@ -882,10 +882,10 @@ a.sr-buttonicon.small-iconbutton {
 	background: url(../images/social-icons.png);
 	margin: 0;
 	}
-	
+
 .social-share li a { opacity: 0.3; filter: alpha(opacity=30);	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)"; }
 .text-light .social-share li a { opacity: 1; filter: alpha(opacity=100);	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }
-		
+
 .socialmedia-widget li.facebook a { background-position: 0px top; }
 .socialmedia-widget li.twitter a { background-position: -30px top; }
 
@@ -899,7 +899,7 @@ a.sr-buttonicon.small-iconbutton {
 
 
 
-/*---------------------------------------------- 
+/*----------------------------------------------
 19. ANIMATIONS
 ------------------------------------------------*/
 .sr-animation {
@@ -913,7 +913,7 @@ a.sr-buttonicon.small-iconbutton {
     -ms-transition: all 0.7s ease;
     transition: all 0.7s ease;
 	}
-	
+
 .sr-animation-fromtop { top: -50px; }
 .sr-animation-frombottom { top: 50px; }
 .sr-animation-fromleft { left: -30px; }
@@ -921,23 +921,23 @@ a.sr-buttonicon.small-iconbutton {
 .sr-animation-zoomin { transform: scale(0);	-ms-transform: scale(0); 	-webkit-transform: scale(0); }
 .sr-animation-zoomout { transform: scale(1.5);	-ms-transform: scale(1.5); 	-webkit-transform: scale(1.5); }
 
-.sr-animation.animated { 
-	top: 0; 
-	left: 0; 
+.sr-animation.animated {
+	top: 0;
+	left: 0;
 	opacity: 1;
 	filter: alpha(opacity=100);
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";  
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 	height: 100%;
 	max-height: 100%;
 	transform: scale(1.0);
-	-ms-transform: scale(1.0); 
+	-ms-transform: scale(1.0);
 	-webkit-transform: scale(1.0);
 	}
-	
 
-	
 
-/*---------------------------------------------- 
+
+
+/*----------------------------------------------
 20. CUSTOM
 ------------------------------------------------*/
 .sr-buttonicon .fa-play { left: 4px; position:relative; }
@@ -945,7 +945,7 @@ a.sr-buttonicon.small-iconbutton {
 .sr-buttonicon .fa-angle-down { left: 2px; top: 0px; position:relative; }
 
 .xone { color: #4da5f5; }
-	
+
 
 /* social buttons
 ------------------------------------------------*/
@@ -1039,4 +1039,3 @@ a.sr-buttonicon.small-iconbutton {
 	margin-left: auto;
 	margin-right: auto;
 }
-
