@@ -759,7 +759,7 @@ a.small-button { font-size: 11px; padding: 10px 20px; }
 a.medium-button { font-size: 13px; padding: 12px 40px; }
 a.big-button { font-size: 15px;	padding: 18px 50px;	}
 
-a.sr-button1 {	border: 2px solid #999999; color: #262626;	background: transparent; }
+a.sr-button1 {	border: 2px solid #262626; color: #262626;	background: #262626; }
 a.sr-button1:hover { border-color: #262626; background-color: #262626; color: #ffffff; }
 
 a.sr-button2 {	border: 2px solid #fff; color: #fff;	background: transparent; }
