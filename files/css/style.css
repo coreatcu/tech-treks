@@ -888,14 +888,17 @@ a.sr-buttonicon.small-iconbutton {
 
 .socialmedia-widget li.facebook a { background-position: 0px top; }
 .socialmedia-widget li.twitter a { background-position: -30px top; }
+.socialmedia-widget li.instagram a { background-position: -450px top; }
 
 .text-light .socialmedia-widget li.facebook a { background-position: 0px -30px ; }
 .text-light .socialmedia-widget li.twitter a { background-position: -30px -30px; }
+.text-light .socialmedia-widget li.instagram a { background-position: -450px -30px; }
 
 .socialmedia-widget li:hover a { opacity: 1 !important; filter: alpha(opacity=100) !important;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)" !important; }
 
 .socialmedia-widget li.facebook:hover a { background-position: 0px bottom ; }
 .socialmedia-widget li.twitter:hover a { background-position: -30px bottom; }
+.socialmedia-widget li.instagram:hover a { background-position: -450px bottom; }
 
 
 
